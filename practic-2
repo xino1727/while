@@ -1,0 +1,11 @@
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    int bebra;
+    cin >> bebra;
+    while (bebra != 0) {
+        cout << bebra-- << endl;
+    }
+}
