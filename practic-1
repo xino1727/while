@@ -1,0 +1,14 @@
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    int bebra = 0;
+    int goat = 100;
+    while (goat != 0) {
+        cout << "enternum: \n";
+        cin >> goat;
+        bebra = bebra + goat;
+    }
+    cout << bebra;
+}
