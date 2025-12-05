@@ -1,0 +1,17 @@
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    int bebra = 12345;
+    int goat=1;
+    while (goat!=bebra) {
+        cin >> goat;
+        if (goat != bebra) {
+            cout << "wrong";
+        }
+        else {
+            cout << "u win";
+        }
+    }
+}
