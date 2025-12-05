@@ -1,0 +1,16 @@
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    int bebra=1;
+    int goat=0;
+    int ronaldo = 0;
+    while (bebra!=0) {
+        cin >> bebra;
+        goat = goat + bebra;
+        ronaldo++;
+    }
+    ronaldo--;
+    cout << goat/ronaldo;
+}
