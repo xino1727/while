@@ -1,0 +1,13 @@
+using namespace std;
+#include <iostream>
+
+int main()
+{
+    int bebra;
+    cin >> bebra;
+    int goat=1;
+    while (goat != 11) {
+        cout << bebra << " * " << goat << " = " << bebra * goat << endl;
+        goat++;
+    }
+}
